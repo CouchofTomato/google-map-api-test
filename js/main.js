@@ -36,6 +36,7 @@ const addMessage = (e) => {
   const myCenter = new google.maps.LatLng(lat.value, long.value)
   const marker = new google.maps.Marker({ position: myCenter })
   marker.setMap(map)
+  map.panTo(myCenter)
   addMarkerCallback(message, marker)
   resetInputs()
 }
