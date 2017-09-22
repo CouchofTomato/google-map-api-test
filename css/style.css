@@ -1,0 +1,16 @@
+#map {
+  width: 800px;
+  height: 500px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#form, #map {
+  padding: 20px;
+}
